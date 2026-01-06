@@ -2,9 +2,8 @@ apt update
 apt upgrade 
 apt install neofetch -y
 apt install screenfetch -y
-apt install net-tools
-apt install sudo
-apt install curl
 clear
 curl -fsSL https://tailscale.com/install.sh | sh
+clear
+clear
 sudo tailscale up
